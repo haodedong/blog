@@ -18,6 +18,7 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
         curl https://api.github.com/repos/haodedong/Blog/issues >> issues.md
+        git pull
         git config --global user.email "haodedong1996@163.com"
         git config --global user.name "haodedong"
         git add .
